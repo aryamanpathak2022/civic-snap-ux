@@ -49,11 +49,11 @@
 
 *[Facilitator places Landing Page]*
 
-**P2:** Okay, I see the app name and a "Get Started" button. I'll tap that.
+**P2:** Okay, I see "Civic Snap" with a logo that says [CS] and the tagline "Report city issues in seconds. Track resolution in real time." Three steps shown: ① Snap photos, ② Auto Route, ③ Track & Verify. Two buttons: "Get Started" and "Sign In." I'll tap "Get Started."
 
-*[Facilitator swaps to Login screen]*
+*[Facilitator swaps to Phone Login screen]*
 
-**P2:** It wants my phone number. There's a country code already set to +91, which is good. I'll type my number...
+**P2:** It says "Civic Snap — Report city issues in seconds" at the top. Phone field with +91 and a number 78350 57890. Below that, "— OR —" and then buttons: [Google] [Email]. Footer: "By continuing, you agree to our Terms & Conditions." I'll type my number...
 
 *[P2 types number, then pauses]*
 
@@ -71,19 +71,17 @@
 
 *[Facilitator swaps to OTP screen]*
 
-**P2:** Now it's asking for a 6-digit OTP. I see six boxes and a timer. I'd enter the code. There's a "Resend OTP" option which is useful — sometimes SMS takes time.
+**P2:** Now it says "Civic Snap" at the top with "Verify phone" subtitle. "6 digit code sent to +91XXX-90." Six boxes [1][2][3][_][_][_]. "Didn't receive code? Resend in 0:50." Button: [Verify & Continue]. Link: "← Change Number." I'd enter the code. The countdown timer is useful.
 
-**Facilitator:** Anything you notice or wonder about?
+**P2:** The "Change Number" link at the bottom is good — I can go back if I entered the wrong number.
 
-**P2:** The "Change phone number" link at the bottom — that answers my earlier question. So I can go back if I entered the wrong number. Good.
+*[Facilitator swaps to Create Profile screen]*
 
-*[Facilitator swaps to Profile Setup]*
+**P2:** "Create Profile" at the top. Fields: Name [XXX XXX], Age [XX] ▼ (dropdown), Location 📍 "Choose on map," Email ID [XX@X.X]. Button: [Continue].
 
-**P2:** Now it wants my name, area, and a profile photo. I'd fill in my name. For area, I'd... hmm, is this a list I choose from or do I type? It's not clear. And the photo — do I need to upload one? I'd rather skip it if I can.
+**P2:** Wait — this screen has a "Continue" button! But the phone login screen didn't! That's inconsistent. Anyway, I'd fill in my name, use the age dropdown, tap "Choose on map" for my area, and enter my email.
 
-**Facilitator:** What would you expect?
-
-**P2:** I'd expect the area to be auto-detected from my phone's location, or at least a dropdown with my ward name. And the photo should be optional — not everyone wants their face on a civic app.
+**P2:** The "Choose on map" for location is interesting — I'd expect it to open a map where I can pin my area. But what if the map doesn't load? Is there a text fallback? And there's no photo field at all — just name, age, location, email. That's simpler, but some people might want to add a photo.
 
 *[Facilitator swaps to Home Dashboard]*
 
@@ -95,11 +93,9 @@
 
 **Observations:**
 - Confusion at phone login — no Continue button visible after entering number
-- Asked about changing phone number later (found the link)
-- Confused about area input method
-- Strong preference for optional profile photo
-- Wanted auto-detect for area/ward
-- Clean layout appreciated
+- Noticed inconsistency: Profile has Continue button but phone login doesn't
+- "Choose on map" for location is interesting but needs fallback
+- No photo field in wireframe — some users may want to add one
 
 ---
 
@@ -107,60 +103,39 @@
 
 **Facilitator:** You're walking home and notice a large pothole. Report it through the app.
 
-**P2:** On the home screen, I see "Report Issue" as the biggest button. I'd tap that.
+**P2:** On the home screen, I see "Welcome back Rahul……" at the top, a [Public] badge, person and bell icons, stats row: My Reports 12, Karma Points 247, Verified 11. Below that, "Quick Report — Report any city issue in seconds" with an "AI Auto Tag" label. And a big [+ New Report] button. I'd tap that.
 
-*[Facilitator swaps to Report screen]*
+*[Facilitator swaps to Report Hazard screen]*
 
-**P2:** Now I see categories. Road Damage, Streetlight, Garbage, Water Issue. I'd tap Road Damage. The icons help — I can see a road with a crack.
+**P2:** It says "Civic Snap — Report Hazard" at the top. There's a "+ Click Image" button to take a photo. Below that, "AI Auto Tags™" with three buttons: [Auto Detect] [Routes List] [+ Add Tag]. Then a "Context / Add details: ………" text field and a [Submit Report] button.
 
-**Facilitator:** What are you thinking?
+**P2:** So the app automatically tags the issue when I take a photo? [Auto Detect] detects what's in the image, and [Routes List] shows which department it gets sent to?
 
-**P2:** The categories cover most common issues. But what if my issue doesn't fit any category? I see there's an "Other" option at the end. That's good.
+*[Facilitator confirms]*
 
-**P2:** Now it's asking for a photo. I'd take a picture. There's a note saying "AI auto-tags" — so the app figures out what the problem is from the photo?
-
-**Facilitator:** Yes, that's the idea.
-
-**P2:** That's impressive if it works well. But I'd want to verify what it detected. What if it misidentifies the problem?
-
-*[Facilitator shows auto-detected tags]*
-
-**P2:** Okay, so it shows tags like "Pothole," "Road Crack," "Surface Damage" as chips. But... I don't see an X or close button on these chips. If it says "Streetlight" for a pothole, how do I remove that? I can't just tap them to dismiss — there's no way to remove wrong tags. This is a significant problem. I should be able to remove any tag the AI got wrong before I submit my report.
+**P2:** That's impressive if it works well. But I notice the tag chips [Auto Detect] and [Routes List] don't have X buttons on them. If the AI tags my issue as "Streetlight" when it's clearly a pothole, how do I remove that? There's no way to remove wrong tags. This is a significant problem.
 
 **Facilitator:** What would you expect?
 
-**P2:** Each tag chip should have a small X button so I can remove ones that are incorrect. Like how you remove filters on shopping apps. I'd also want to add my own tags, but fixing wrong AI tags is the priority. Without that control, my report could get routed to the wrong department.
+**P2:** Each tag should have an X button so I can remove ones that are incorrect. I'd also want to add my own tags using the [+ Add Tag] button, but fixing wrong AI tags is the priority.
 
-**P2:** Now there's a section for optional details. I'd write "Large pothole, about 2 feet wide, near the bus stop on 80 Feet Road." And then there's a location button — "Use Current Location." I'd tap that.
-
-**Facilitator:** What about the map?
-
-**P2:** I see a small map preview with a pin. I can drag the pin if the location isn't accurate. That's useful — sometimes GPS is off by a few meters.
-
-**P2:** At the bottom, there's a "Submit Report" button. And a small note about anonymous reporting. I almost missed that — it's quite small.
-
-**Facilitator:** Would you use anonymous reporting?
-
-**P2:** For a pothole, no. But for something like illegal construction or encroachment, yes. I'd want the option to be more visible though. Maybe a toggle switch instead of small text.
+**P2:** I'd write "Large pothole, about 2 feet wide, near the bus stop on 80 Feet Road" in the Context field and tap [Submit Report].
 
 *[Facilitator swaps to Confirmation screen]*
 
-**P2:** "Report Submitted!" with a report ID — CS-2026-0847. Status is "Received" and it says "Estimated response: 48 hours." I can track the report or go back home.
+**P2:** Green checkmark. "Report Submitted — Your hazard report has been received & logged in the system." Ticket ID: #CS-2029-0857. And two buttons: [Track this Report] and [Report Another Issue].
 
 **Facilitator:** How do you feel?
 
 **P2:** Satisfied. The report ID makes it feel official. The 48-hour estimate sets expectations. I like that I can track it right away. The whole process felt like it took about 2 minutes, which is acceptable.
 
 **Observations:**
-- Found Report Issue button immediately
-- Appreciated "Other" category option
+- Found [+ New Report] button immediately
+- AI Auto Tags™ section with [Auto Detect] [Routes List] [+ Add Tag] understood
 - AI auto-detected tags have no X/cross button — can't remove incorrect tags (critical issue)
-- Wanted ability to add custom tags as secondary need
-- GPS location step was clear
-- Map pin adjustment appreciated
-- Anonymous reporting toggle too small/subtle
-- Report ID and ETA were confidence-builders
-- Overall flow felt well-paced
+- [+ Add Tag] button noticed as a way to add custom tags
+- No category selection screen — goes straight to photo/tags
+- Report ID #CS-2029-0857 and submission confirmation appreciated
 
 ---
 
@@ -168,48 +143,33 @@
 
 **Facilitator:** You reported a broken streetlight last week. Check if it's been fixed.
 
-**P2:** On the home screen, I see "Active Reports" but I'm not sure if the streetlight would show there since it was last week. Let me check the bottom navigation. I see "Home," "Reports," "Map," "Notifications," "Profile." I'd tap "Reports."
-
-**Facilitator:** Good. What do you see?
+**P2:** On the home screen, I see "Active Reports" but I'm not sure if the streetlight would show there since it was last week. Let me check the bottom navigation. I see "My Reports" — actually I see "View All" next to Active Reports. I'd tap that.
 
 *[Facilitator swaps to My Reports screen]*
 
-**P2:** I see a list of my reports. Each one has a colored badge — green, yellow, red. The streetlight one has a yellow badge saying "In Progress." I'd tap on it.
+**P2:** "← My Reports" at the top with a search bar: "🔍 Search your Reports." Two cards below: [In Progress] #CS-057 — Pothole on MG Road with an image placeholder and [Track →] link, and [Resolved] #CS-058 — Broken Streetlight with ✅ Verified by You.
 
-**Facilitator:** What do the colors mean to you?
-
-**P2:** Green means done, yellow means happening, red means waiting or urgent. That's pretty standard — like traffic lights. Easy to understand.
+**P2:** The status badges are clear — yellow for in progress, green for resolved. Like traffic lights. Easy to understand.
 
 *[Facilitator swaps to Live Tracking screen]*
 
-**P2:** Okay, this is the tracking screen. I see a progress bar at the top with stages. The streetlight is at "In Progress." Below that, there's a yellow notice saying "Awaiting materials for electrical repair. ETA shifts to March 20."
+**P2:** This is the tracking screen. Header says CS-[ID]. Progress bar shows: Reported → BWSSB → On Site → Done. The "On Site" stage is active. Below that, "ETA: 28/March 2025." Then "Agency: BWSSB" with a stop icon, and "BWSSB" with a field report icon. There's a "View Activity Logs" link and a [Verify Repair] button.
 
 **Facilitator:** What do you think?
 
-**P2:** The progress bar is very clear — I can see exactly where things stand. The delay notice is honest, which I appreciate. But... there's a lot more below. I see "Activity Log" and "Agency Tasks." That's a lot of information on one screen.
+**P2:** The progress bar is very clear — I can see exactly where things stand: Reported → BWSSB → On Site → Done. The agency information shows which department is handling it. But there's a lot of information here. The "View Activity Logs" and field report sections are below the fold.
 
-**Facilitator:** Is it overwhelming?
-
-**P2:** Not overwhelming, but dense. I'm someone who likes to see everything, so I'd scroll through it all. But my wife, who's less tech-savvy, might find it confusing. Maybe there should be a simple view and a detailed view.
-
-**Facilitator:** What would the simple view show?
-
-**P2:** Just the progress bar, current status, and estimated completion date. That's what most people care about. The detailed view can have the activity log, agency tasks, and all the technical details.
-
-**P2:** One more thing — I see "Stage-gates" at the top. What does that mean? I had to read the context to understand it's like checkpoints in the process. The term itself isn't very citizen-friendly.
-
-**Facilitator:** Good feedback. What about "Digital Handshake"?
-
-**P2:** Same thing. It sounds technical. I'd prefer something like "Field Worker Tasks" or "What's Being Done."
+**P2:** Maybe there should be a simple view and a detailed view. Just the progress bar, status, and ETA for a quick check. Then an expandable section for the activity logs and field reports.
 
 **Observations:**
-- Used bottom nav "Reports" tab (not "My Reports" label)
-- Color-coded status badges instantly understood
-- Progress bar was the clearest element
+- Found My Reports via View All link easily
+- Status color coding (yellow=in progress, green=resolved) immediately understood
+- Progress bar was the standout feature
+- Progress stages (Reported → BWSSB → On Site → Done) were clear
 - Delay notice appreciated
 - Screen too information-dense for average users
-- "Stage-gates" and "Digital Handshake" terminology too technical
-- Suggested simple vs. detailed view toggle
+- Agency information on tracking screen was useful
+- Suggested simple vs. detailed view toggle for tracking
 
 ---
 
@@ -219,21 +179,19 @@
 
 **P2:** I'd tap the notification.
 
-*[Facilitator swaps to Verify Fix screen]*
+*[Facilitator swaps to Verify Repair screen]*
 
-**P2:** I see two photos side by side — before and after. The before shows the pothole, the after shows it filled. Below, there's GPS coordinates and a timestamp. I'd compare the photos carefully.
+**P2:** The header says CS-[ID] and the title says "VERIFY REPAIR — Citizen Sign Off Required." That's very clear — it's telling me I need to sign off on this. Two image placeholders side by side: Before and After. Below that, "GPS Locked: 2026-03-28 | Crew ID: 535 ER." That's reassuring — it tells me the repair was verified at the right location.
 
 **Facilitator:** What would you do next?
 
-**P2:** If the after photo looks good, I'd tap "Confirm Fix." If not, "Dispute." The buttons are big and clear.
+**P2:** I'd compare the before and after photos. If the after photo looks good, I'd tap the [VERIFY] button. If not, there's a link that says "Not happy? Details."
 
 **Facilitator:** What do you think about the dispute option?
 
-**P2:** There's a note saying disputes trigger a supervisor review within 24 hours. That's reassuring. But I'd want a confirmation popup before disputing — like "Are you sure?" Because disputing probably creates extra work for someone.
+**P2:** "Not happy? Details" is a text link — it's a bit vague. I'd want to know what happens when I click it. And I'd want specific options to choose from — like "Repair not completed" or "Wrong location" or "Temporary fix only." Just a blank text field isn't enough.
 
-**Facilitator:** What if the after photo doesn't match the location?
-
-**P2:** That's a good question. The GPS and timestamp help, but what if the field worker took a photo of a different pothole that was already fixed? I'd want to be able to flag that specifically — like "Wrong location" as a dispute reason.
+**P2:** But the GPS lock and Crew ID information adds trust. I can see that a real crew member was at the right location at the right time.
 
 **Facilitator:** That's a great insight.
 
@@ -250,10 +208,11 @@
 **P2:** Mostly. But I'd want to know what the points mean. Can I redeem them? Do they give me any status? Or is it just for show? A small info icon explaining the karma system would help.
 
 **Observations:**
-- Before/after comparison intuitive
-- GPS + timestamp built trust
+- "VERIFY REPAIR — Citizen Sign Off Required" title was very clear
+- Before/After comparison intuitive
+- GPS Locked + Crew ID added trust
+- "Not happy? Details" link too vague — wanted specific dispute reasons
 - Wanted confirmation dialog before disputing
-- Suggested specific dispute reasons (e.g., "Wrong location")
 - Karma system well-received but needed explanation
 - Compared karma to "credit score for being a good citizen"
 
@@ -263,15 +222,17 @@
 
 **Facilitator:** You're curious about issues others have reported nearby. Browse them.
 
-**P2:** On the home screen, I see "Nearby Issues" with a "Map View" link. I'd tap that.
+**P2:** On the home screen, I see "Nearby Issues" in the Quick Report section. I'd look for a map view.
 
-*[Facilitator swaps to Map View]*
+*[Facilitator swaps to Public Reports Map screen]*
 
-**P2:** I see a map with colored pins. Red, yellow, green — matching the status colors I already learned. I'd tap a red pin.
+**P2:** I see a search bar "🔍 Search area or Issue" and a map with pins. Below the map, colored dots: ● Reported ● Pending ● Resolved — those are filters. And a "Nearby Issues" section showing "Pothole MG Road" and "Broken Streetlight" with images.
 
-*[Facilitator swaps to Public Issue View]*
+*[Facilitator swaps to Public Issue Detail screen]*
 
-**P2:** I see the issue details — type, location, date, status, and a photo. There's no personal information about who reported it, which is good for privacy. And there's a "Support This Report" button.
+**P2:** "← Public Issue" at the top with an image placeholder. Title: "Pothole MG Road | ● In Progress." Reported by: Priya S. | 2 hrs ago. Location: 📍 Church Street, MG Road, Ward 65, Bengaluru. Description: "Large pothole near MG Road entrance…" No personal information beyond a first name.
+
+**P2:** I notice there's no "Support This Report" button like P1 mentioned. It's just the issue details — type, location, who reported it, and the description.
 
 **Facilitator:** What does that do?
 
@@ -282,10 +243,8 @@
 **P2:** The map is a bit cluttered when there are many pins. I'd want a filter — like show only unresolved issues, or filter by category. Also, I can't tell from the pin what type of issue it is without tapping. Maybe different shapes for different categories?
 
 **Observations:**
-- Map navigation was intuitive
-- Color consistency with status badges appreciated
-- Privacy respected — no personal info visible
-- "Support This Report" feature well-understood
+- Map had ● Reported ● Pending ● Resolved filter dots
+- Privacy respected — only first name visible
 - Map clutter concern with many pins
 - Suggested category-based pin shapes or filters
 
@@ -295,11 +254,11 @@
 
 **Facilitator:** You want to check if there are any updates on your submitted reports. Show me how you'd look at your notifications.
 
-**P2:** On the home screen, I see a bell icon with a red dot in the top right. That usually means I have notifications. I'd tap that.
+**P2:** On the home screen, I see a bell icon 🔔 with a red dot in the top right. That usually means I have notifications. I'd tap that.
 
 *[Facilitator swaps to Notifications screen]*
 
-**P2:** This is the notifications screen. It says "Notifications" at the top and there's a "Mark All Read" button. The notifications are grouped by time — "Today" and then older dates.
+**P2:** "← Notifications" at the top with a "Mark All Read" link on the right. The notifications are grouped by date. Under "Today": "Report CS-2024-0849 was updated · 2 hrs ago." Under "24/01/2026": "Report CS-2025-0689 was marked resolved · 29/01/24 4:30" and "Report CS-2025-0689 awaiting your feedback."
 
 **Facilitator:** Can you read through them?
 
@@ -329,25 +288,23 @@
 
 **Facilitator:** You want to check your profile and see your reporting stats. Show me how you'd access your profile and what you see.
 
-**P2:** On the home screen, I see a profile icon in the top right. I'd tap that.
+**P2:** On the home screen, I see a person icon 👤 in the top right. I'd tap that.
 
 *[Facilitator swaps to Profile screen]*
 
-**P2:** This is my profile. I see my name "Priya Sharma," my area "Indiranagar," and a big karma section. It says 1250 Karma Points with a star. Below that, there are stats: 23 Reports, 18 Resolved. That's a quick summary of my activity — I like that.
+**P2:** "← [A] Ayush Patel | Indiranagar" at the top. ⭐ 1250 Karma Points. Stats: 23 Reports | 18 Resolved. Menu items: [My Reports] [Notification & Billing]. And a [Sign Out] button at the bottom.
 
 **Facilitator:** How would you edit your information?
 
-**P2:** Hmm, I'm looking for an "Edit" button... I don't see one. There's no pencil icon, no "Edit Profile" link. I'd expect it near my name or photo. Maybe I'm supposed to tap on my photo to change it? That's not very obvious.
+**P2:** Hmm, I'm looking for an "Edit" button... I don't see one. There's no pencil icon, no "Edit Profile" link. I'd expect it near my name. Maybe I'm supposed to tap on the [A] avatar to change it? That's not very obvious.
 
 **Facilitator:** What would you expect?
 
-**P2:** I'd expect a clear "Edit Profile" button, probably near the top. And for specific fields, I'd expect to tap on each one — like tapping on my area to change it, tapping on my name to edit it. But none of that is indicated here.
-
-**P2:** Menu items below show "My Reports" and "Notification & Billing." And there's a "Sign Out" button at the bottom. But no edit option for my profile itself.
+**P2:** I'd expect a clear "Edit Profile" button near the top. And for specific fields, I'd expect to tap on each one. But none of that is indicated here. Just [My Reports], [Notification & Billing], and [Sign Out].
 
 **Facilitator:** What about the karma points?
 
-**P2:** 1250 points is nice, but what does it mean? Is it just a score? Can I redeem it? Does it give me priority? There should be a small info icon or link explaining what karma points do. I'd want to know if being a high-point user means my reports get handled faster.
+**P2:** 1250 points with a star. But what does it mean? Is it just a score? Can I redeem it? Does it give me priority? There should be a small info icon explaining what karma points do. I'd want to know if being a high-point user means my reports get handled faster.
 
 **Observations:**
 - Found profile via person icon
@@ -366,23 +323,23 @@
 
 *[Facilitator places Field Worker Login screen]*
 
-**P2:** This is a different login — "Civic Sende — Field Worker Portal." It wants Employee ID and Department. I'd type my employee ID and select my department from the dropdown.
+**P2:** This is a different login — "Civic Sende — Field Worker Portal." It wants Employee ID [X X X X] and Department [Select Department ▼]. I'd type my employee ID and select my department.
 
 *[Facilitator swaps to Field Worker Dashboard]*
 
-**P2:** "Hi Ramesh! | My Work" at the top. I see priority stats: 2 High, 2 Medium, 1 Completed. The task cards below show High Priority first with an SLA timer — 2 hours. That's urgent. Task #TK-4521 with a "Start" button.
+**P2:** "Hi Ramesh! | My Work" at the top. Stats: 2 High Priority | 2 Medium | 1 Completed. Task cards below. First: "[High Priority] SLA-2hr — Broken Manhole Cover, Indiranagar, 12th Main | #TK-4521 | [Start]." Second: "[High Priority] SLA-6hr — Water Pipe Burst | [Start]."
 
 **Facilitator:** What do you notice about the task cards?
 
-**P2:** The priority badges are clear — red for high. The SLA timers help me understand urgency. I can see the task title and location at a glance before even opening it.
+**P2:** The priority badges are clear — red for high. The SLA timers help me understand urgency. I can see the task title and location at a glance.
 
 *[Facilitator swaps to Task Details screen]*
 
-**P2:** Task details. "Broken Manhole Cover" title, High Priority badge, two photo areas, description that says "Large Manhole Cover Missing," and a map showing Indiranagar location with a pin. I can see exactly where I need to go. There's a "Complete" button at the bottom.
-
-**P2:** The photo areas — one says "Before" and one says "After." That makes sense. I take a photo when I arrive and one when I finish.
+**P2:** "← Task Details | #TK-4521 | [High Priority]" at the top. Title: "Broken Manhole Cover." Two image placeholders. Description: "Large Manhole Cover Missing." Location: 📍 Indiranagar with a map pin. Button: [Complete].
 
 *[Facilitator swaps to GPS Checkout screen]*
+
+**P2:** "← GPS Checkout | #TK-4521" at the top. "GPS → Verified: Indiranagar, 12th Main." Before Photo: [↑ Upload Photo]. After Photo: [↑ Upload Photo]. Notes (Optional): [text field]. Button: [Submit Checkout].
 
 **P2:** GPS Checkout. It says "GPS Verified: Indiranagar, 12th Main." So it checks I'm at the right location. Below that, "Before Photo" upload, "After Photo" upload, "Notes (Optional)" field, and "Submit Checkout" button.
 
@@ -412,43 +369,45 @@
 
 *[Facilitator places Government Official Login screen]*
 
-**P2:** "Civic Snap — Official Portal." It asks for Office Email ID, Department dropdown, and Password. Three fields instead of one. I'd fill these in and tap Login.
+**P2:** "Civic Snap — Official Portal." Office Email ID [text field], Department [Select ▼], and Password [● ● ●]. Three fields instead of one. I'd fill these in and tap [Login].
 
 *[Facilitator swaps to Government Dashboard]*
 
-**P2:** "Hello BWSSB Office" with stats: 12 Critical, 28 Pending, 156 Resolved. That's a lot of information at a glance, which is good for a manager. Below that, a heatmap. I'm not sure I understand this right away — what do the darker areas mean?
+**P2:** "Hello BWSSB Office" with stats: 12 Critical | 28 Pending | 156 Resolved. Below that, a heatmap grid with shaded cells. And "Reported Queue [See All]" with "[High Priority] SLA-2hr — Manhole Opened #TK-4521."
+
+**P2:** The heatmap — I'm not sure I understand it right away. What do the darker areas mean?
 
 **Facilitator:** What would you guess?
 
-**P2:** I'd guess darker means more issues in that area. But a legend would help — like "darker = more reports" somewhere visible. Without one, I'm guessing.
+**P2:** I'd guess darker means more issues. But a legend would help — like "darker = more reports" somewhere visible. Without one, I'm guessing.
 
 *[Facilitator swaps to Reports Queue]*
 
-**P2:** Reports queue. Multiple cards with priority badges, titles, locations, and "Assign" and "Details" buttons. I'd look for the highest priority one first.
+**P2:** "Reports ——— [+ Create Manual]" at the top. Three cards: "[High Priority] — Manhole Open 📍 Indiranagar" with [Assign] [Details], "[Medium Priority] — Garbage 📍 MG Road" with [Assign] [Details], and "[Medium Priority]" with just [Assign].
 
-**P2:** But with many reports, this list will get long. I'd want filters — by priority, by area, by date. Scrolling through everything isn't efficient when you have hundreds of reports.
+**P2:** But with many reports, this list will get long. I'd want filters — by priority, by area, by date. Scrolling through everything isn't efficient.
 
 *[Facilitator swaps to Assign Ticket screen]*
 
-**P2:** Assign Tickets. Search for Employee Name and add a Note. I'd search for a worker and assign the ticket.
+**P2:** "← Assign Tickets | #TK-0591." Employee Name field with [🔍 Search Name] and a Note text area. Button: [Assign].
 
-**P2:** But I don't know which worker to assign. The search just gives me names. I need to see their current workload, what area they cover, how many tasks they already have. Just a name search isn't enough for smart decisions.
+**P2:** The search just gives me names. I need to see their current workload, how many tasks they already have. Just a name search isn't enough for smart decisions.
 
 *[Facilitator swaps to Ticket Details screen]*
 
-**P2:** Ticket Details for #TK-0591. Before/after photos, title "Manhole Opened," location pin, description, and progress showing "Reported → BWSSB Assigned." And there's a "User Details" link.
+**P2:** "← Ticket Details | #TK-0591 | [User Details]." Two image placeholders. Title: "Manhole Opened." Location: 📍 Indiranagar. Description text area. Progress: "● Reported → ● BWSSB Assigned."
 
 *[Facilitator swaps to User Details screen]*
 
-**P2:** User Details shows the citizen's info — name, phone, email, location, karma points (1250). "Message" and "Call" buttons for contact. And a "Report User" link for flagging misuse. Good — I can reach out to the citizen if I need more details.
+**P2:** "User Details | #TK-059." Name: Rajesh, Phone Number: XXX-XXX, Email: X@.com, Location: Whitefield, Karma Points: 1250. Buttons: [Message] [Call]. Link: "Report User !"
 
-**P2:** The karma points here are useful. If someone has 1250 points, they're a trusted, active reporter. If it's low, maybe the report is less reliable. It helps me prioritize.
+**P2:** Karma points 1250 — that's a trusted, active reporter. It helps me prioritize.
 
 *[Facilitator swaps to Create Manual Ticket screen]*
 
-**P2:** Create Manual Ticket. Location search, image upload, priority buttons (High, Medium, Low — good, not a dropdown), and description. And a "Create" button. This is for phone-in reports from citizens who don't use the app.
+**P2:** "← Create Manual Ticket" at the top. Location: [🔍 Search Location], Images: [↑ Upload Img], Priority buttons: [High] [Medium] [Low], Description: [text area], Button: [Create]. Clean and straightforward for phone-in reports.
 
-**P2:** The priority buttons are clear — I can see all three options without opening a dropdown. For an older person like me, that's helpful. Bigger touch targets.
+**P2:** The priority buttons are clear — I can see all three options without opening a dropdown. For an older person like me, that's helpful.
 
 **Observations:**
 - Understood secure three-field login for official portal
@@ -474,7 +433,7 @@
 
 **Facilitator:** Any screen where you weren't sure what to do?
 
-**P2:** The profile setup — the area field and photo requirement were unclear. And on the tracking screen, terms like "Stage-gates" and "Digital Handshake" were confusing.
+**P2:** The profile setup — the "Choose on map" for location and no photo field. And the tracking screen had a lot of information to process at once.
 
 **Facilitator:** Any labels or icons that confused you?
 
