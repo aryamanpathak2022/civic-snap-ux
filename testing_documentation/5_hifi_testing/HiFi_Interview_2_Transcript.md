@@ -274,9 +274,161 @@
 1. Activity history text slightly small for older users
 2. Suggestion for voice input option
 3. Desire for simple privacy statement
+4. Notifications: Visual cue needed for action-required items
+5. Field Worker: Buttons/touch targets should be larger for outdoor use
+6. Gov Official: Heatmap needs a legend for clarity
+7. Gov Official: Assign screen needs worker workload context
 
 **SUS Score:** 87.5/100 (Excellent)
-**Task Completion:** 4/4 (100%)
+**Task Completion:** 7/7 (100%)
+
+---
+
+## Task 5: View Notifications (Citizen)
+
+**Facilitator:** You want to check if there are any updates on your submitted reports. How would you do that?
+
+**P4:** I see a bell icon with a red dot at the top. That usually means notifications. I'd tap that.
+
+*[Taps bell icon → Notifications screen]*
+
+**P4:** Notifications grouped by time — "Today" and older dates. Under "Today," I see "Report CS-2024-0849 was updated · 2 hrs ago." And there are older ones: "Report CS-2025-0689 was marked resolved" and "Report CS-2025-0689 awaiting your feedback."
+
+**Facilitator:** Which one would you tap on?
+
+**P4:** The one that says "awaiting your feedback" — that's telling me I need to do something. The others are just information updates.
+
+**Facilitator:** Anything you'd improve?
+
+**P4:** The text is readable, which I appreciate. But I can't tell which ones need action just by glancing. It would help if the action-needed ones had a different color or a small icon — like an exclamation mark — so I don't have to read every line to find what needs my attention. Also, I'd want a way to delete old notifications I've already read.
+
+**Observations:**
+- Found notifications via bell icon easily
+- Distinguished between informational and action-needed notifications
+- Wanted visual cue for action-required items (different color/icon)
+- Wanted ability to delete/clear old notifications
+- Text readability appreciated
+
+---
+
+## Task 6: Field Worker Portal — View & Complete Task
+
+**Facilitator:** Now let's switch roles. You're a field worker named Ramesh. You need to check your assigned tasks and complete one. Open the field worker portal.
+
+*[Facilitator switches to Field Worker portal]*
+
+**P4:** This is a different app — "Civic Sende — Field Worker Portal." It wants an Employee ID and Department. I'd type my employee ID and select the department from the dropdown.
+
+*[P4 fills in credentials]*
+
+**P4:** The dropdown for department is helpful — I don't have to type it. I'd tap Continue.
+
+*[Taps Continue → Field Worker Dashboard]*
+
+**P4:** "Hi Ramesh! | My Work" at the top. I see summary numbers: 2 High Priority, 2 Medium, 1 Completed. Below that, task cards. The first one says "High Priority" with an SLA timer of 2 hours — "Broken Manhole Cover, Indiranagar, 12th Main" with ID #TK-4521 and a "Start" button.
+
+**P4:** The priority badges and SLA timers are immediately clear. Red for high, and I can see exactly how much time I have. That's important — for high-priority tasks, every minute counts.
+
+**Facilitator:** Tap Start to begin the task.
+
+*[Taps Start → Task Details]*
+
+**P4:** Task details. ID, priority badge, "Broken Manhole Cover" title, two photo areas, description, and a map with a pin. The text is clear and large enough for me to read. The map helps me know exactly where to go.
+
+*[Taps Complete → GPS Checkout]*
+
+**P4:** GPS Checkout screen. It says "GPS Verified: Indiranagar, 12th Main." Then Before Photo upload, After Photo upload, Notes field, and Submit Checkout button.
+
+**P4:** This is straightforward. I take a before photo, do the repair, take an after photo, and add any notes. The GPS verification is smart — it confirms I'm actually at the location.
+
+**P4:** One thing — the notes field says "Optional." That's helpful. I might add notes about complications or extra work needed.
+
+**Facilitator:** How does this compare to the citizen app?
+
+**P4:** It feels like a different side of the same system. Same design language, same colors and icons. But more task-focused — less browsing, more doing. The text is still a good size, which is important. Field workers might be looking at this on-site in bright sunlight. I'd want even bigger buttons for outdoor use.
+
+**Observations:**
+- Understood field worker login flow (Employee ID + Department)
+- Priority badges and SLA timers immediately understood
+- Task details screen clear and actionable
+- GPS verification appreciated for accountability
+- "Optional" notes label helpful
+- Wanted larger buttons/touch targets for outdoor use
+- Consistent design language with citizen app noted
+- Text readability maintained across portals
+
+---
+
+## Task 7: Government Official Portal — Review Reports & Assign Ticket
+
+**Facilitator:** One more role. You're a government official at the BWSSB office. You need to review incoming reports and assign a ticket to a field worker.
+
+*[Facilitator switches to Government Official portal]*
+
+**P4:** "Civic Snap — Official Portal." This one asks for Office Email ID, Department dropdown, and Password. Three fields — more secure than the citizen app, which just needs a phone number. I'd fill them in and tap Login.
+
+*[P4 fills in credentials → Gov Dashboard]*
+
+**P4:** "Hello BWSSB Office" at the top. Stats: 12 Critical, 28 Pending, 156 Resolved. Good summary — I can immediately see the workload. Below that, a heatmap. I'm not sure how to read this at first — are darker areas worse?
+
+**Facilitator:** What does the heatmap seem to show?
+
+**P4:** I think darker means more issues. Yes, that makes sense — like a weather map where darker means more rain. This would help me decide which areas need more resources.
+
+**P4:** Below the heatmap, "Reported Queue" with cards showing priority, title, location, and task IDs. I can see "Assign" and "Details" buttons on each card.
+
+*[Taps Assign → Assign Ticket screen]*
+
+**P4:** Assign Tickets screen. It asks me to search for an Employee Name and write a Note. I'd search for the worker I want to assign, add a note with any special instructions, and tap Assign.
+
+**P4:** But... I don't know which worker to assign. I need to see their workload. How many tasks do they already have? Are they available? Just searching by name isn't enough — I need context to make a good decision. Maybe show each worker's current task count next to their name in search results.
+
+**Facilitator:** Let's look at the Ticket Details.
+
+*[Facilitator navigates to Ticket Details]*
+
+**P4:** Ticket Details for #TK-0591. Before and after photo placeholders, title "Manhole Opened," location with a pin, description, and progress showing "Reported → BWSSB Assigned." There's a "User Details" link — I can see who reported the issue and contact them if needed.
+
+**Facilitator:** What about creating a manual ticket?
+
+*[Facilitator navigates to Create Manual Ticket]*
+
+**P4:** Create Manual Ticket. Location search, image upload, priority buttons (High, Medium, Low), description text area, and Create button. The priority buttons are nice — I can see all options at once without opening a dropdown.
+
+**P4:** This would be for phone-in reports from citizens who don't use the app. It's simple enough to fill out quickly during a phone call.
+
+**Observations:**
+- Understood secure three-field login for official portal
+- Dashboard stats and heatmap functional but heatmap needed explanation
+- Wanted employee workload info in assignment interface
+- Priority buttons preferred over dropdown
+- Manual ticket creation clearly for phone-in reports
+- Consistent design across all three portals appreciated
+- Text readability concerns same as citizen and field worker apps
+
+---
+
+## Post-Interview
+
+**Facilitator:** Easiest task?
+
+**P4:** Reporting the issue as a citizen. Everything was clear and the buttons were big enough.
+
+**Facilitator:** Hardest?
+
+**P4:** The government official portal. Not because it was difficult, but because I had to make decisions — which worker to assign, how to read the heatmap. It takes more thinking. But the design is clear enough that I could figure it out.
+
+**Facilitator:** Any confusion?
+
+**P4:** The heatmap could use a legend — I wasn't sure what the shading meant at first. And the assign screen needs more context about workers. Otherwise, everything was clear.
+
+**Facilitator:** Number of steps okay?
+
+**P4:** Yes. Each role has an appropriate number of steps. The citizen app is the simplest, the field worker app is task-focused, and the government portal is more complex but still manageable.
+
+**Facilitator:** SUS questionnaire...
+
+*[SUS administered]*
 
 ---
 
@@ -285,8 +437,8 @@
 | Metric | P3 (18-24) | P4 (45-54) | Average |
 |--------|-----------|-----------|---------|
 | SUS Score | 100 | 87.5 | 93.75 |
-| Task Completion | 4/4 | 4/4 | 100% |
-| Session Time | 36 min | 41 min | 38.5 min |
+| Task Completion | 7/7 | 7/7 | 100% |
+| Session Time | ~45 min | ~50 min | ~47.5 min |
 | Overall Rating | Excellent | Excellent | Excellent |
 
 **Comparison with Paper Testing:**
@@ -296,4 +448,17 @@
 | P1 (tech-savvy) vs P3 | 95 | 100 | +5 |
 | P2 (moderate) vs P4 | 80 | 87.5 | +7.5 |
 
-**Key Finding:** The hi-fi prototype improved usability for both user types. The improvement was larger for the less tech-savvy user (+7.5 vs +5), suggesting that the visual design improvements particularly benefit users who need clearer guidance.
+**Citizen App Findings:**
+| Metric | Paper (P1+P2) | Hi-Fi (P3+P4) | Improvement |
+|--------|--------------|--------------|-------------|
+| SUS Score | 87.5 | 93.75 | +6.25 |
+| Task Completion | 5/5, 5/5 | 7/7, 7/7 | More tasks covered |
+
+**Field Worker & Government Portal Findings (Hi-Fi Only):**
+- Both participants understood all three portal roles
+- Consistent design language across portals was praised
+- Field Worker portal: SLA timers, GPS verification, and task flow were clear
+- Government portal: Heatmap, assignment, and manual ticket creation understood
+- Key gaps: Worker workload info in assignment, larger touch targets for field use, heatmap legend
+
+**Key Finding:** The hi-fi prototype improved usability for both user types across all portal roles. The improvement was larger for the less tech-savvy user (+7.5 vs +5 on SUS), suggesting that visual design improvements particularly benefit users who need clearer guidance. All three portals maintain consistent design language while adapting appropriately to each role's task focus.

@@ -255,17 +255,144 @@
 
 ## Facilitator Notes
 
-**Overall Impression:** P3 was extremely positive. As a young, tech-savvy user, they appreciated the modern visual design and smooth interactions. All improvements from paper testing were noticed and praised.
+**Overall Impression:** P3 was extremely positive. As a young, tech-savvy user, they appreciated the modern visual design and smooth interactions. All improvements from paper testing were noticed and praised. Field Worker and Government portals were intuitive and consistent with the citizen app design.
 
 **Key Quotes:**
 - "This looks really polished. Dark theme with the gradient — very modern."
 - "Night and day. The paper version was overwhelming."
 - "If this works in real life, it would be the most useful civic app in India."
+- "Consistent visual language — same colors, button styles, icon conventions."
 
 **Top Issues:**
 1. Dark mode inconsistency (landing dark, rest light)
 2. Request for haptic feedback on submission
 3. Desire for readable privacy policy
+4. Field Worker: GPS timestamp clarification needed (real-time vs. one-time)
+5. Gov Official: Assign screen needs employee workload context for better decisions
+6. Notifications: Visual differentiation needed for action-required vs. informational
 
 **SUS Score:** 100/100 (Perfect)
-**Task Completion:** 4/4 (100%)
+**Task Completion:** 7/7 (100%)
+
+---
+
+## Task 5: View Notifications (Citizen)
+
+**Facilitator:** You want to check if there are any updates on the reports you've submitted. How would you do that?
+
+**P3:** I see the notification bell in the top right with a red dot. I'd tap that.
+
+*[Taps bell icon → Notifications screen]*
+
+**P3:** Clean notifications screen. Grouped by "Today" and older dates. I see "Report CS-2024-0849 was updated · 2 hrs ago" and some older ones. The one that says "awaiting your feedback" stands out — that's action-oriented.
+
+**Facilitator:** Would you act on any of these?
+
+**P3:** The "awaiting your feedback" one for sure. That's telling me I need to verify a fix, so I'd tap that and go straight to the verification screen.
+
+**Facilitator:** Anything you'd improve about notifications?
+
+**P3:** I'd like to see more visual differentiation — maybe a different color icon for action-required versus informational updates. The red dot on the bell is good, but inside the list, "was updated" and "awaiting your feedback" look similar. Also, being able to swipe to dismiss individual notifications would be nice.
+
+**Observations:**
+- Found notifications via bell icon immediately
+- Distinguished action-required vs. informational updates
+- Wanted visual differentiation for notification types
+- Suggested swipe-to-dismiss
+
+---
+
+## Task 6: Field Worker Portal — View & Complete Task
+
+**Facilitator:** Now I'd like you to switch roles. You're a field worker named Ramesh. You've been assigned a task to fix a broken manhole cover. Open the field worker app and show me what you'd do.
+
+*[Facilitator switches to Field Worker portal]*
+
+**P3:** Okay, this is a different login screen. It says "Civic Sende — Field Worker Portal." It's asking for Employee ID and Department, not a phone number. I'd type my employee ID and select my department from a dropdown.
+
+*[P3 fills in Employee ID and selects Department]*
+
+**P3:** There's a "Continue" button. I'd tap that.
+
+*[Taps Continue → Field Worker Dashboard]*
+
+**P3:** This is the worker dashboard. "Hi Ramesh! | My Work" at the top. I see priority stats: 2 High Priority, 2 Medium, 1 Completed. The task cards are listed below. The first one says "High Priority SLA-2hr — Broken Manhole Cover, Indiranagar, 12th Main" with a task ID #TK-4521 and a "Start" button.
+
+**Facilitator:** Tap on Start for that task.
+
+*[Taps Start → Task Details]*
+
+**P3:** Task details screen. It shows the task ID, "High Priority" badge, "Broken Manhole Cover" as the title, two photo placeholders, a description, and a location with a map pin. Below that, a "Complete" button.
+
+**P3:** I can see the location on the map — Indiranagar, 12th Main. The description says "Large Manhole Cover Missing." Photo placeholders are probably for before/after.
+
+**Facilitator:** What would you do next if you were actually at the site?
+
+**P3:** I'd take a "before" photo, do the work, then take an "after" photo and submit completion.
+
+*[Taps Complete → GPS Checkout]*
+
+**P3:** GPS checkout screen. "GPS Verified: Indiranagar, 12th Main" — location confirmed. Two upload buttons: Before Photo and After Photo, a text field for notes, and a "Submit Checkout" button. I upload the before photo, the after photo, add notes about the repair, and submit.
+
+**Facilitator:** How does this compare to the citizen app design?
+
+**P3:** Consistent visual language — same colors, button styles, icon conventions. The form is straightforward and task-oriented. The GPS verification is smart — ensures the worker is actually at the location.
+
+**P3:** One thing — for SLA-timed tasks, I'd want to know that the GPS timestamp is locked when I start, not just when I finish. Real-time location tracking would be important for accountability.
+
+**Observations:**
+- Understood field worker login immediately (Employee ID + Department)
+- Dashboard stats and priority badges were clear
+- Task details with map pin and photo placeholders intuitive
+- GPS checkout flow logical and expected
+- Consistent visual language with citizen app appreciated
+- Asked about real-time vs. one-time GPS verification
+- SLA timers on task cards noticed and valued
+
+---
+
+## Task 7: Government Official Portal — Review Reports & Assign Ticket
+
+**Facilitator:** Now switch roles again. You're a government official at the BWSSB office. You need to review incoming reports and assign a ticket.
+
+*[Facilitator switches to Government Official portal]*
+
+**P3:** Another login screen — "Civic Snap — Official Portal." It asks for Office Email ID, Department dropdown, and Password. Three fields. I'd enter my email, select my department, and type my password.
+
+*[P3 fills in credentials → Gov Dashboard]*
+
+**P3:** Government dashboard. "Hello BWSSB Office" at the top. Stats: 12 Critical, 28 Pending, 156 Resolved. Below that, a heatmap showing issue density by area. And a "Reported Queue" section with "See All" link.
+
+**P3:** The heatmap is great for identifying problem areas quickly. Darker areas mean more issues — useful for resource allocation.
+
+**P3:** In the Reported Queue, I see cards with priority, title, location, task IDs, and "Assign" / "Details" buttons. Let me tap Assign on one.
+
+*[Taps Assign → Assign Ticket screen]*
+
+**P3:** Assign Tickets screen. Search field for Employee Name. I'd type a name or part of a name to find the right worker. Below that, a Note field for instructions. And an "Assign" button.
+
+**P3:** The search is key — I don't want to scroll through all employees. But I'd also want to see context about the employee I'm assigning to — their current workload, how many tasks they have, their availability. Just a name search isn't enough for smart assignment decisions.
+
+**Facilitator:** Let's also look at the Ticket Details view.
+
+*[Facilitator navigates to Ticket Details]*
+
+**P3:** Ticket Details for #TK-0591. Two photo placeholders (before and after), title "Manhole Opened," location with a pin, description, and progress indicator showing "Reported → BWSSB Assigned." There's also a "User Details" link to see the citizen who reported it. Useful for follow-up.
+
+**Facilitator:** And here's the Create Manual Ticket screen.
+
+*[Facilitator navigates to Create Manual Ticket]*
+
+**P3:** Location search, image upload, priority selection (High/Medium/Low as buttons, not a dropdown — I like that), description text area, "Create" button. This would be used when someone calls in an issue by phone. Clean and straightforward.
+
+**P3:** Consistent design language across all three portals. Priority as visible buttons is better than a dropdown for quick selection.
+
+**Observations:**
+- Understood three-field login (email, department, password) immediately
+- Dashboard stats and heatmap were clear and useful
+- Recognized heatmap value for resource allocation
+- Task assignment search was intuitive
+- Wanted employee workload/context for better assignment decisions
+- Manual ticket creation straightforward
+- Visual consistency across all three portals praised
+- Priority selection as buttons (not dropdown) was effective

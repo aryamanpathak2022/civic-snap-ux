@@ -53,11 +53,15 @@
 
 *[Facilitator swaps to Citizen Login screen]*
 
-**P1:** Now it's asking for my phone number. There's a field and a "Continue" button. I'd enter my number and tap Continue.
+**P1:** Now it's asking for my phone number. There's a field with +91 already set. I'd type my number... but wait, I don't see a "Continue" or "Next" button anywhere on this screen. Where do I tap after entering my number?
 
-**Facilitator:** What are you thinking at this point?
+**Facilitator:** What would you expect?
 
-**P1:** It's straightforward. I like that it's just phone number — no email, no password. Feels quick. I wonder if it works with any Indian number though.
+**P1:** There should be a big button at the bottom — "Continue" or "Verify" or something. But it's just not here. I'd probably look for a button below the phone field, but there's nothing. This is confusing — I've entered my number and now I'm stuck.
+
+*[Facilitator explains there should be a Continue button — noting this as a design issue]*
+
+**P1:** Okay, so I'd tap Continue if it were there. It's straightforward conceptually — just phone number, no email, no password. Feels quick. But that missing button is a real problem. People would think the app is broken or they did something wrong.
 
 *[Facilitator swaps to OTP Verification screen]*
 
@@ -86,11 +90,11 @@
 **P1:** It was smooth. Four screens total — landing, login, OTP, profile. That feels reasonable. Not too long.
 
 **Observations:**
-- No hesitation at any step
-- Understood OTP flow immediately
+- Confusion at phone login — no Continue button visible after entering number
+- Understood OTP flow immediately once past login
 - Asked about area input method (dropdown vs type)
 - Questioned whether photo is mandatory
-- Positive overall impression
+- Positive overall impression after onboarding
 
 ---
 
@@ -112,15 +116,17 @@
 
 **Facilitator:** What do you notice about this step?
 
-**P1:** It says "AI auto-tags" below the photo area. So the app will automatically figure out it's a pothole? That's cool but also... I want to make sure it's correct. Can I edit the tags?
-
-**Facilitator:** What would you expect?
-
-**P1:** I'd want to see what tags it detected and be able to remove or add ones. Like if it says "pothole" but I also want to add "monsoon damage" or something.
+**P1:** It says "AI auto-tags" below the photo area. So the app will automatically figure out it's a pothole? That's cool but also... I want to make sure I can remove ones that are wrong.
 
 *[Facilitator swaps to show the auto-detected tags section]*
 
-**P1:** Okay, so it shows "Detected Issues: Pothole, Road Crack, Surface Damage" as little chips. I can tap to remove them. And there's a text area for additional details. I'd write "Large pothole near the bus stop, about 2 feet wide."
+**P1:** Okay, so it shows "Detected Issues: Pothole, Road Crack, Surface Damage" as little chips. I see them, but... there's no X or close button on these chips. If the AI got it wrong — like if it said "Streetlight" for a pothole — how do I remove that? I can't tap them off. This is a problem. If the app is auto-tagging, I need to be able to remove irrelevant tags, otherwise my report could get routed to the wrong department.
+
+**Facilitator:** What would you expect?
+
+**P1:** Each tag chip should have an X button so I can remove ones that are wrong. Like the chips you see on filter menus — each one has a little X you can tap to remove it. Without that, I'm stuck with whatever the AI decided, even if it's wrong. I'd also want to add tags, but most importantly I need to be able to remove incorrect ones first.
+
+**P1:** There's also a text area for additional details. I'd write "Large pothole near the bus stop, about 2 feet wide."
 
 **Facilitator:** What about location?
 
@@ -145,7 +151,7 @@
 **Observations:**
 - Found "Report Issue" button immediately
 - Understood category selection
-- Interested in AI auto-tagging but wanted editability
+- Interested in AI auto-tagging but frustrated — no X/cross button to remove incorrect auto-detected tags
 - Location step was clear
 - Noticed anonymous reporting toggle (small, almost missed)
 - Positive about report ID and estimated response time
@@ -261,6 +267,79 @@
 
 ---
 
+## Task 6: View Notifications
+
+**Facilitator:** You want to check if there are any updates on the reports you've submitted. Show me how you'd look at your notifications.
+
+**P1:** On the home screen, I see a bell icon in the top right with a red dot on it. I'd tap that.
+
+*[Facilitator swaps to Notifications screen]*
+
+**P1:** Okay, this is the notifications screen. I see a header that says "Notifications" with a "Mark All Read" link on the right. Below that, the notifications are grouped by date.
+
+**Facilitator:** Read through them and tell me what you see.
+
+**P1:** Under "Today," there's one: "Report CS-2024-0849 was updated · 2 hrs ago." And under an older date, there are two: "Report CS-2025-0689 was marked resolved" and "Report CS-2025-0689 awaiting your feedback."
+
+**Facilitator:** What would you tap on?
+
+**P1:** The one about awaiting my feedback — that sounds like it needs action from me. I'd tap that one and go to the verification screen, like we just did in the earlier task.
+
+**Facilitator:** What do you think of the notification screen overall?
+
+**P1:** It's clean and organized. The grouping by date helps. The red dot on the home screen icon is a good visual cue that I have unread notifications. But I notice it only shows text — no preview images or icons for the notification type. It might be helpful to have small icons showing whether it's an update, a resolved report, or an action item.
+
+**P1:** Also, I'd want to be able to swipe to dismiss individual notifications, not just "Mark All Read." And maybe a filter — show only notifications that need my action, like verification requests.
+
+**Observations:**
+- Found notifications via bell icon immediately
+- Understood date grouping
+- Prioritized action-oriented notifications (verification requests)
+- Wanted notification type icons/visual differentiation
+- Suggested swipe-to-dismiss and filtering by action-needed
+- "Mark All Read" understood immediately
+
+---
+
+## Task 7: View & Edit Profile
+
+**Facilitator:** You want to update your profile information, like your area or photo. Show me how you'd get to your profile and what you'd change.
+
+**P1:** On the home screen, I see a person icon in the top right next to the bell. I'd tap that.
+
+*[Facilitator swaps to Profile screen]*
+
+**P1:** Now I'm on my profile screen. I see my name "Rahul Sharma" at the top, my area "Indiranagar," and a karma section. It shows 1250 Karma Points with a star icon. Below there are stats: 23 Reports, 18 Resolved.
+
+**Facilitator:** Where would you go to edit your information?
+
+**P1:** I'd look for an "Edit Profile" or a pencil icon... I see menu items below: "My Reports," "Notification & Billing." But I don't see an obvious "Edit Profile" button. Maybe I tap on my name or photo? Or is there a settings gear?
+
+**Facilitator:** What would you expect?
+
+**P1:** I'd expect a clear "Edit Profile" button somewhere prominent — on the profile screen itself. Either a pencil icon next to my name, or an "Edit" button near the top. Without it, I'm not sure how to change my area or photo.
+
+*[Facilitator points out the profile image area]*
+
+**P1:** Oh, I could tap on my photo to change it. That's a bit hidden — not everyone would guess that. And for changing my area, I'm not sure where that option is.
+
+**Facilitator:** How about the karma section?
+
+**P1:** The 1250 points with the star is clear. And the stats below — 23 Reports, 18 Resolved — give me a quick overview of my activity. But what do the karma points actually do? Is it just a number, or does it give me something? There's no explanation here.
+
+**P1:** Oh, I see there's a "Sign Out" button at the bottom. That's pretty definitive. No confusion there.
+
+**Observations:**
+- Found profile via person icon
+- Karma points visible but meaning unclear
+- Edit profile path was not obvious — no visible "Edit" button
+- Expected pencil icon or dedicated edit button
+- Suggested tap-on-photo pattern is hidden
+- Sign out was clear and accessible
+- Wanted explanation of karma system benefits
+
+---
+
 ## Post-Interview
 
 **Facilitator:** Which task was the easiest?
@@ -343,5 +422,9 @@
 3. Area input method ambiguous (dropdown vs free text)
 4. "Digital Handshake" terminology confusing
 5. Anonymous reporting toggle is too small/easily missed
+6. Phone login missing Continue button — users stuck after entering number
+7. AI auto-detected tags have no X/cross button — can't remove incorrect tags
+8. Profile screen lacks visible "Edit Profile" button
+9. Notifications need type icons and action-needed filter
 
 **Session Rating:** Very positive. High SUS score (95). Participant would use and recommend the app.

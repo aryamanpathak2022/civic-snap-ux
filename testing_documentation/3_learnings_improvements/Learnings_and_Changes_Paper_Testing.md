@@ -38,6 +38,8 @@ Both participants responded positively to the Civic Snap paper prototype. The co
 | Category selection with icons intuitive | ✅ | ✅ | — |
 | AI auto-tagging concept understood | ✅ | ✅ | — |
 | Wanted ability to ADD custom tags | ⚠️ | ⚠️ | Medium |
+| AI auto-detected tags have NO X/cross button to remove them | ⚠️ | ⚠️ | High |
+| GPS location step clear | ✅ | ✅ | — |
 | GPS location step clear | ✅ | ✅ | — |
 | Map pin adjustment appreciated | ✅ | ✅ | — |
 | Anonymous reporting toggle too small | ⚠️ | ⚠️ | High |
@@ -109,10 +111,14 @@ Both participants responded positively to the Civic Snap paper prototype. The co
 2. **Technical Jargon** — "Stage-gates," "Digital Handshake" confused both
 3. **Anonymous Reporting Visibility** — Too small, easily missed
 4. **Profile Setup Clarity** — Photo requirement and area input ambiguous
-5. **Tag Editing** — Could remove but not add custom tags
-6. **Dispute Flow** — Needed confirmation dialog and reason selector
-7. **Karma Explanation** — Points system needed context
-8. **Map Filters** — Needed for scalability
+5. **Tag Editing — No Remove Button** — Auto-detected AI tags have no X/cross button; users cannot remove incorrect AI-detected tags (critical)
+6. **Phone Login — Missing Continue Button** — No visible Continue button after entering phone number (critical)
+7. **Dispute Flow** — Needed confirmation dialog and reason selector
+8. **Karma Explanation** — Points system needed context
+9. **Map Filters** — Needed for scalability
+10. **Profile Edit Visibility** — No visible "Edit Profile" button on profile screen
+11. **Notifications — Action Differentiation** — Need visual distinction between action-required and informational notifications
+12. **Notifications — Individual Dismissal** — Need ability to dismiss/delete individual notifications
 
 ---
 
@@ -170,14 +176,15 @@ Both participants responded positively to the Civic Snap paper prototype. The co
 
 ---
 
-### Change 5: Tag Editing — Add Custom Tags
-**Problem:** Users could remove AI-detected tags but not add their own.
+### Change 5: Tag Editing — Remove & Add Tags
+**Problem:** Users could not remove AI-auto-detected tags because there was no X/cross button on tag chips. If the AI misidentified an issue, users had no way to remove incorrect tags, which could lead to reports being routed to the wrong department. Users also wanted the ability to add custom tags.
 
 **Change:**
+- Added X/cross button on each auto-detected tag chip so users can remove incorrect ones
 - Added "+ Add Tag" button next to detected tags
 - Opens a text input for custom tag entry
 - Shows suggested tags based on category
-- Custom tags appear as same-style chips
+- Custom tags appear as same-style chips with X buttons
 
 **Impact:** Gives users full control over issue classification. Improves accuracy.
 
@@ -247,6 +254,55 @@ Both participants responded positively to the Civic Snap paper prototype. The co
 
 ---
 
+### Change 10: Phone Login — Continue Button
+**Problem:** Both participants noted the absence of a visible Continue button after entering their phone number. Users were stuck and unsure how to proceed, thinking the app was broken.
+
+**Change:**
+- Added a prominent "Continue" button below the phone number input field
+- Button activates only after a valid phone number is entered
+- Clear visual affordance (blue, full-width, disabled state when empty)
+
+**Impact:** Resolves a critical blocking issue. Users can now proceed through login without confusion.
+
+---
+
+### Change 11: Tag Editing — X/Close Button on AI Tags
+**Problem:** Auto-detected AI tags appeared as chips with no X/cross button. Users could not remove incorrect tags, meaning reports could be routed to the wrong department.
+
+**Change:**
+- Added X/close button on each auto-detected tag chip
+- Tapping X removes the tag and triggers re-routing confirmation
+- Tags are now clearly editable (removable) before submission
+
+**Impact:** Gives users control over AI-generated tags. Prevents misclassification of reports.
+
+---
+
+### Change 12: Profile — Edit Visibility
+**Problem:** No visible "Edit Profile" button on the profile screen. Users didn't know how to modify their information.
+
+**Change:**
+- Added a prominent "Edit Profile" button near the top of the profile screen
+- Added pencil icon next to editable fields (name, area, photo)
+- Photo area now shows camera icon overlay on tap
+
+**Impact:** Makes profile editing discoverable. Users can now update their information without confusion.
+
+---
+
+### Change 13: Notifications — Action Differentiation
+**Problem:** All notifications looked similar. Users couldn't quickly distinguish between informational updates and action-required items (like verification requests).
+
+**Change:**
+- Added colored left-border to notification cards: blue for informational, orange for action-required
+- Added small action icon (exclamation mark) for items needing user response
+- Added "Action Needed" filter tab at top of Notifications screen
+- Added swipe-to-dismiss gesture for individual notifications
+
+**Impact:** Users can quickly identify which notifications need their attention. Reduces likelihood of missed verification requests.
+
+---
+
 ### Change 10: Empty States
 **Problem:** No empty state screens were shown in paper prototype.
 
@@ -277,12 +333,17 @@ Both participants responded positively to the Civic Snap paper prototype. The co
 |----------|--------|--------|--------|
 | 🔴 Critical | Tracking screen progressive disclosure | Medium | High |
 | 🔴 Critical | Replace technical jargon | Low | High |
+| 🔴 Critical | Phone login Continue button | Low | Critical |
+| 🔴 Critical | AI tag X/cross button for removal | Low | High |
 | 🟡 High | Anonymous reporting toggle | Low | High |
 | 🟡 High | Profile setup clarity | Low | Medium |
 | 🟡 High | Dispute confirmation + reasons | Medium | Medium |
-| 🟢 Medium | Add custom tags | Medium | Medium |
+| 🟡 High | Profile Edit button visibility | Low | High |
+| 🟡 High | Notification action differentiation | Medium | High |
+| 🟢 Medium | Custom tags (Add Tag) | Medium | Medium |
 | 🟢 Medium | Karma explanation | Low | Medium |
 | 🟢 Medium | Map filters | Medium | Medium |
+| 🟢 Medium | Notification individual dismissal | Low | Medium |
 | 🔵 Low | Pin shape differentiation | Low | Low |
 | 🔵 Low | Empty states | Low | Medium |
 

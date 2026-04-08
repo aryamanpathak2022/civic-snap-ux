@@ -53,11 +53,19 @@
 
 *[Facilitator swaps to Login screen]*
 
-**P2:** It wants my phone number. There's a country code already set to +91, which is good. I'll type my number and tap Continue.
+**P2:** It wants my phone number. There's a country code already set to +91, which is good. I'll type my number...
 
-**Facilitator:** What are you thinking?
+*[P2 types number, then pauses]*
 
-**P2:** It's simple, which I like. No username, no password to remember. Just phone number. But I'm wondering — what if I change my phone number later? Can I update it?
+**P2:** I've entered my number, but... where's the Continue button? I don't see any button to proceed. I'd expect a "Continue" or "Next" or "Verify" button right below the phone field, but there's nothing there.
+
+**Facilitator:** What would you do?
+
+**P2:** I'd probably tap somewhere else on the screen to see if the button appears, or I might think something is broken. It's confusing — the most important button on this screen is missing. I'd eventually figure there should be a button and ask someone or try scrolling down.
+
+*[Facilitator notes the missing Continue button as a design issue]*
+
+**P2:** Assuming the button was there, I'd tap Continue. The flow is simple conceptually — just phone number, no email, no password. But that missing button is a real problem. People would think the app is broken or that they did something wrong.
 
 **Facilitator:** Good question. Let's continue.
 
@@ -86,7 +94,7 @@
 **P2:** It was straightforward. Four steps is reasonable. My only concern is the profile photo — it should clearly say "optional." And the area field needs to be clearer about how to input it.
 
 **Observations:**
-- Understood phone login immediately
+- Confusion at phone login — no Continue button visible after entering number
 - Asked about changing phone number later (found the link)
 - Confused about area input method
 - Strong preference for optional profile photo
@@ -117,11 +125,11 @@
 
 *[Facilitator shows auto-detected tags]*
 
-**P2:** Okay, so it shows tags like "Pothole," "Road Crack," "Surface Damage" as chips I can tap. I can remove ones that are wrong. That's good — I have control. But can I add tags too? What if I want to add "Monsoon Damage"?
+**P2:** Okay, so it shows tags like "Pothole," "Road Crack," "Surface Damage" as chips. But... I don't see an X or close button on these chips. If it says "Streetlight" for a pothole, how do I remove that? I can't just tap them to dismiss — there's no way to remove wrong tags. This is a significant problem. I should be able to remove any tag the AI got wrong before I submit my report.
 
 **Facilitator:** What would you expect?
 
-**P2:** I'd expect an "Add Tag" button or a text field where I can type additional tags.
+**P2:** Each tag chip should have a small X button so I can remove ones that are incorrect. Like how you remove filters on shopping apps. I'd also want to add my own tags, but fixing wrong AI tags is the priority. Without that control, my report could get routed to the wrong department.
 
 **P2:** Now there's a section for optional details. I'd write "Large pothole, about 2 feet wide, near the bus stop on 80 Feet Road." And then there's a location button — "Use Current Location." I'd tap that.
 
@@ -146,7 +154,8 @@
 **Observations:**
 - Found Report Issue button immediately
 - Appreciated "Other" category option
-- Wanted ability to add custom tags, not just remove
+- AI auto-detected tags have no X/cross button — can't remove incorrect tags (critical issue)
+- Wanted ability to add custom tags as secondary need
 - GPS location step was clear
 - Map pin adjustment appreciated
 - Anonymous reporting toggle too small/subtle
@@ -282,6 +291,75 @@
 
 ---
 
+## Task 6: View Notifications
+
+**Facilitator:** You want to check if there are any updates on your submitted reports. Show me how you'd look at your notifications.
+
+**P2:** On the home screen, I see a bell icon with a red dot in the top right. That usually means I have notifications. I'd tap that.
+
+*[Facilitator swaps to Notifications screen]*
+
+**P2:** This is the notifications screen. It says "Notifications" at the top and there's a "Mark All Read" button. The notifications are grouped by time — "Today" and then older dates.
+
+**Facilitator:** Can you read through them?
+
+**P2:** Under "Today," it says "Report CS-2024-0849 was updated · 2 hrs ago." And under an older date, "Report CS-2025-0689 was marked resolved" and "Report CS-2025-0689 awaiting your feedback." The one about feedback sounds like it needs me to do something — probably verify a fix, like we did earlier.
+
+**Facilitator:** Would you act on that?
+
+**P2:** Yes, I'd tap on the "awaiting your feedback" one. That should take me to the verification screen.
+
+**Facilitator:** What do you think of this screen?
+
+**P2:** It's organized well. Grouping by date is helpful. But I'm looking at this as someone who checks it carefully — someone less patient might just want to see what needs their attention. It would be nice to have a filter or a separate section for "Action Required" notifications versus just "Updates." The "awaiting your feedback" one is different from "was updated" — one needs me to do something, the other is just information.
+
+**P2:** Also, I notice there's no way to delete individual notifications. I'd want to clear old ones that I've already handled.
+
+**Observations:**
+- Found notifications via bell icon with red dot
+- Understood date grouping immediately
+- Distinguished between informational and action-required notifications
+- Suggested "Action Required" filter or separate section
+- Wanted ability to delete individual notifications
+- "Mark All Read" was clear
+
+---
+
+## Task 7: View & Edit Profile
+
+**Facilitator:** You want to check your profile and see your reporting stats. Show me how you'd access your profile and what you see.
+
+**P2:** On the home screen, I see a profile icon in the top right. I'd tap that.
+
+*[Facilitator swaps to Profile screen]*
+
+**P2:** This is my profile. I see my name "Priya Sharma," my area "Indiranagar," and a big karma section. It says 1250 Karma Points with a star. Below that, there are stats: 23 Reports, 18 Resolved. That's a quick summary of my activity — I like that.
+
+**Facilitator:** How would you edit your information?
+
+**P2:** Hmm, I'm looking for an "Edit" button... I don't see one. There's no pencil icon, no "Edit Profile" link. I'd expect it near my name or photo. Maybe I'm supposed to tap on my photo to change it? That's not very obvious.
+
+**Facilitator:** What would you expect?
+
+**P2:** I'd expect a clear "Edit Profile" button, probably near the top. And for specific fields, I'd expect to tap on each one — like tapping on my area to change it, tapping on my name to edit it. But none of that is indicated here.
+
+**P2:** Menu items below show "My Reports" and "Notification & Billing." And there's a "Sign Out" button at the bottom. But no edit option for my profile itself.
+
+**Facilitator:** What about the karma points?
+
+**P2:** 1250 points is nice, but what does it mean? Is it just a score? Can I redeem it? Does it give me priority? There should be a small info icon or link explaining what karma points do. I'd want to know if being a high-point user means my reports get handled faster.
+
+**Observations:**
+- Found profile via person icon
+- Stats display (Reports, Resolved) was clear and appreciated
+- No visible "Edit Profile" button — major usability concern
+- Karma points visible but purpose unclear
+- Wanted explanation of karma system benefits
+- Sign Out was clear and accessible
+- Suggested field-level editing (tap name, tap area)
+
+---
+
 ## Post-Interview
 
 **Facilitator:** Which task was easiest?
@@ -367,5 +445,9 @@
 6. Karma system needs explanation
 7. Map view needs filters and category-based pin shapes
 8. Privacy statement needed for location data
+9. Phone login missing Continue button — users stuck after entering number
+10. AI auto-detected tags have no X/cross button — can't remove incorrect tags
+11. Profile screen lacks visible "Edit Profile" button
+12. Notifications need "Action Required" filter section
 
 **Session Rating:** Positive. Good SUS score (80). Participant would use the app but wants assurance of government responsiveness.
