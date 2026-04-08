@@ -245,7 +245,7 @@
 
 **Facilitator:** One thing to change?
 
-**P4:** Make the text even bigger in the activity history section. Some of the timestamps are a bit small. And maybe add a voice option for people who can't type well.
+**P4:** Make the text even bigger in the activity history section. Some of the timestamps are a bit small. The heatmap labels were also hard to read. And maybe add a voice option for people who can't type well — a microphone button for descriptions.
 
 **Facilitator:** Trust with location?
 
@@ -269,15 +269,13 @@
 - "The text is a good size — I don't need my reading glasses for this."
 - "Having both options [simple/detailed] is good — some people want details, some don't."
 - "This is the best-designed government-related app I've seen."
+- "A voice option for descriptions would make this app accessible to many more people."
 
 **Top Issues:**
-1. Activity history text slightly small for older users
-2. Suggestion for voice input option
-3. Desire for simple privacy statement
-4. Notifications: Visual cue needed for action-required items
-5. Field Worker: Buttons/touch targets should be larger for outdoor use
-6. Gov Official: Heatmap needs a legend for clarity
-7. Gov Official: Assign screen needs worker workload context
+1. **Many areas text too small for visibility** — P4 noted that while most of the app had readable text, several areas had small text that was hard to read. This included the activity history timestamps, the heatmap labels in the government dashboard, and the notification detail text. For a wider audience, especially older users, text sizes need to be larger or a font scaling option should be available.
+2. **Voice input option needed** — P4 specifically requested a voice input option for users who can't type well. "Most government apps don't consider people who struggle with typing. A voice option for descriptions would make this app accessible to many more people."
+
+**Note:** All issues from paper testing (Continue button, tracking density, tag editing, dispute flow, anonymous toggle, karma explanation, map filters, profile photo) were fully resolved in the hi-fi prototype. P4 specifically praised the improvements: readable text size, clear karma explanation, prominent anonymous toggle, simple/detailed tracking view toggle, and "Add Tag" functionality.
 
 **SUS Score:** 87.5/100 (Excellent)
 **Task Completion:** 7/7 (100%)

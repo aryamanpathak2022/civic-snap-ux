@@ -190,11 +190,19 @@
 
 **P3:** Yes, much clearer than the paper version. The levels make sense — New Citizen, Active Reporter, Community Champion, Civic Leader. And knowing that higher trust means faster priority gives me a reason to keep using the app. It's not just a vanity metric.
 
+**Facilitator:** Is there anything missing from this profile screen?
+
+**P3:** I notice there's no way to delete my account or my data. What if I want to leave the app? I'd want a "Delete My Account" option that removes all my data — reports, karma, everything. GDPR compliance, basically. Also, I don't see a link to the privacy policy. Where do I find out how my data is being used?
+
+**P3:** And the privacy policy specifically — I can't find it anywhere on this screen or in the app. I'd want a clear, readable privacy policy link, not buried in the terms and conditions. Something like "How we use your data" that's easy to find and actually readable.
+
 **Observations:**
 - Karma levels well-understood
 - Trust-to-priority connection appreciated
 - Info icon explanation effective
 - System seen as motivating, not gimmicky
+- No "Delete Account" or data removal option found
+- Privacy policy not accessible from the app
 
 ---
 
@@ -264,12 +272,10 @@
 - "Consistent visual language — same colors, button styles, icon conventions."
 
 **Top Issues:**
-1. Dark mode inconsistency (landing dark, rest light)
-2. Request for haptic feedback on submission
-3. Desire for readable privacy policy
-4. Field Worker: GPS timestamp clarification needed (real-time vs. one-time)
-5. Gov Official: Assign screen needs employee workload context for better decisions
-6. Notifications: Visual differentiation needed for action-required vs. informational
+1. **Delete Profile and Data** — No option to delete account or remove personal data. P3 specifically looked for a "Delete My Account" option and could not find one. Required for GDPR compliance and user trust.
+2. **Privacy policy and legal aspects not accessible** — P3 could not find a privacy policy anywhere in the app. Wanted a clear, readable "How we use your data" link, not buried deep in terms and conditions.
+
+**Note:** All issues from paper testing (Continue button, tracking density, tag editing, dispute flow, anonymous toggle, karma explanation, map filters, profile photo) were resolved in the hi-fi prototype. P3 confirmed improvements like prominent tags, karma levels with explanation, simple/detailed view toggle, and readable text.
 
 **SUS Score:** 100/100 (Perfect)
 **Task Completion:** 7/7 (100%)

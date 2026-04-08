@@ -340,6 +340,106 @@
 
 ---
 
+## Task 8: Field Worker — View & Complete Task
+
+**Facilitator:** Now I'd like you to switch roles. You're a field worker named Ramesh who works for BBMP. You've been assigned a task — a broken manhole cover on 12th Main, Indiranagar. Show me how you'd start and complete this task.
+
+*[Facilitator places Field Worker Login screen]*
+
+**P1:** Okay, this is a different app — "Civic Sende — Field Worker Portal." It wants an Employee ID and a Department dropdown. No phone number login this time. I'd type my employee ID and select my department.
+
+*[Facilitator swaps to Field Worker Dashboard]*
+
+**P1:** Now I see "Hi Ramesh! | My Work" at the top. Stats show 2 High Priority, 2 Medium, 1 Completed. Below that, task cards. The first one says "High Priority SLA-2hr — Broken Manhole Cover, Indiranagar, 12th Main" with ID #TK-4521 and a "Start" button.
+
+**Facilitator:** What do you notice?
+
+**P1:** The SLA timer is prominent — 2 hours for a high priority task. That's tight. The second task also has an SLA of 6 hours. The priority badges are color-coded which matches what I saw in the citizen app.
+
+*[Facilitator swaps to Task Details screen]*
+
+**P1:** Task details. The title "Broken Manhole Cover," two photo areas for before and after, a description, and a map with a pin showing Indiranagar location. There's a "Complete" button at the bottom.
+
+**P1:** The map is useful for navigation. I'd go to the location, take a before photo, do the work, take an after photo, then submit.
+
+*[Facilitator swaps to GPS Checkout screen]*
+
+**P1:** GPS Checkout screen. It says "GPS Verified: Indiranagar, 12th Main." Then Before Photo upload, After Photo upload, Notes field (optional), and a Submit Checkout button.
+
+**P1:** The GPS verification is smart — it confirms I'm actually at the location. I can't just submit from home. The notes field being optional is good — sometimes there's nothing extra to say.
+
+**Facilitator:** Anything surprising about this portal?
+
+**P1:** The flow is straightforward — login, see tasks, start a task, go to location, submit completion with proof. No unnecessary steps. The SLA timers add urgency. Compared to the citizen app, this feels more task-focused, which makes sense for workers.
+
+**P1:** One thing — I don't see a way to flag a problem. Like, what if I get to the location and the issue is already resolved? Or what if it's worse than described? Can I report back that the description doesn't match reality?
+
+**Observations:**
+- Understood field worker login immediately (Employee ID + Department)
+- Dashboard stats and SLA timers were clear and added urgency
+- Task details with map and photos intuitive
+- GPS verification appreciated for accountability
+- Wanted ability to flag discrepancies between report and actual issue
+- Notes field being optional was appreciated
+- Flow described as straightforward and task-focused
+
+---
+
+## Task 9: Government Official — Review Reports & Assign Tickets
+
+**Facilitator:** One more role. You're a government official at the BWSSB office. You need to review incoming reports and assign a ticket to a field worker. I'll show you the paper screens.
+
+*[Facilitator places Government Official Login screen]*
+
+**P1:** Another different login — "Civic Snap — Official Portal." It asks for Office Email ID, Department dropdown, and Password. Three fields. More secure than the citizen or field worker logins, which makes sense for government accounts.
+
+*[Facilitator swaps to Government Dashboard]*
+
+**P1:** The dashboard says "Hello BWSSB Office" with stats: 12 Critical, 28 Pending, 156 Resolved. Below that, there's a heatmap — a grid with shaded cells showing issue density. And below that, "Reported Queue" with a "See All" link and task cards.
+
+**P1:** The heatmap is interesting — I can see which wards have the most issues. Darker areas mean more reports. This is useful for resource allocation.
+
+*[Facilitator swaps to Reports Queue]*
+
+**P1:** A list of reports with priority badges, titles, locations, and task IDs. Each has "Assign" and "Details" buttons. I'd tap "Assign" on the high priority one.
+
+*[Facilitator swaps to Assign Ticket screen]*
+
+**P1:** Assign Tickets screen. A search field for Employee Name and a Note field. I'd search for an available worker, add instructions in the note, and click Assign.
+
+**P1:** But I notice this screen only has a name search. I don't see any information about the worker — how many tasks they have, what their current workload is, or if they're even available. Just searching by name isn't enough for smart assignment. I'd need to see their status.
+
+*[Facilitator swaps to Ticket Details screen]*
+
+**P1:** Ticket Details for #TK-0591. Two photo placeholders for before/after, title "Manhole Opened," location with a pin, description, and progress showing "Reported → BWSSB Assigned." There's also a "User Details" link.
+
+**P1:** The progress bar shows me where the ticket is in the process. The "User Details" link is useful — I can see who reported the issue and contact them if needed.
+
+*[Facilitator swaps to User Details screen]*
+
+**P1:** "User Details" shows the citizen's name, phone, email, location, and karma points. There are "Message" and "Call" buttons, and a "Report User" link for flagging misuse.
+
+**P1:** Karma points here is interesting — 1250. That tells me this is an active, trusted reporter. Higher priority for high-karma reports makes sense.
+
+*[Facilitator swaps to Create Manual Ticket screen]*
+
+**P1:** Create Manual Ticket. Location search, image upload, priority buttons (High, Medium, Low), and a description field. This is for when someone calls in an issue by phone instead of using the app. Clean and straightforward.
+
+**Facilitator:** What do you think of this government portal overall?
+
+**P1:** It's functional. The heatmap and stats give a good overview. The ticket assignment could be better with worker availability info. The manual ticket creation is clean. My main concern would be: in a real scenario, there could be hundreds of reports. The queue needs filtering — by priority, by area, by department.
+
+**Observations:**
+- Understood secure three-field login for official portal
+- Dashboard stats and heatmap functional but heatmap needs a legend
+- Wanted worker workload/context in assignment screen
+- Liked User Details with karma points for trust assessment
+- Manual ticket creation straightforward
+- Suggested filtering for the reports queue (priority, area, department)
+- Consistent design language with citizen and field worker apps noted
+
+---
+
 ## Post-Interview
 
 **Facilitator:** Which task was the easiest?
@@ -417,14 +517,9 @@
 - "The karma system is clever."
 
 **Top Issues Identified:**
-1. Tracking screen is information-dense — needs progressive disclosure
-2. Profile photo requirement unclear
-3. Area input method ambiguous (dropdown vs free text)
-4. "Digital Handshake" terminology confusing
-5. Anonymous reporting toggle is too small/easily missed
-6. Phone login missing Continue button — users stuck after entering number
-7. AI auto-detected tags have no X/cross button — can't remove incorrect tags
-8. Profile screen lacks visible "Edit Profile" button
-9. Notifications need type icons and action-needed filter
+1. **No Continue button on login page** — After entering phone number, P1 could not find a Continue button and was stuck. Critical blocking issue.
+2. **Tracking screen too dense** — Overwhelmed with information. P1 and P2 both found the tracking screen had too much data at once, needed progressive disclosure (simple view + detailed view).
+3. **Tag editing — no way to remove** — AI auto-detected tags appeared as chips with no X/cross button. If the AI misidentified an issue, users had no way to remove incorrect tags before submission.
+4. **No dispute flow — no confirmation, no reason selector** — P1 wanted a confirmation dialog before disputing ("Are you sure?") and the ability to specify dispute reasons (e.g., "Wrong location"). No such flow existed in the paper prototype.
 
-**Session Rating:** Very positive. High SUS score (95). Participant would use and recommend the app.
+**Session Rating:** Very positive. High SUS score (95). Participant would use and recommend the app across all three roles.

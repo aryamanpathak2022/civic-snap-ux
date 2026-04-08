@@ -360,6 +360,108 @@
 
 ---
 
+## Task 8: Field Worker — View & Complete Task
+
+**Facilitator:** Now switch roles. You're a field worker named Ramesh. You've been assigned a task — a broken manhole cover on 12th Main, Indiranagar. Show me how you would start and complete this task.
+
+*[Facilitator places Field Worker Login screen]*
+
+**P2:** This is a different login — "Civic Sende — Field Worker Portal." It wants Employee ID and Department. I'd type my employee ID and select my department from the dropdown.
+
+*[Facilitator swaps to Field Worker Dashboard]*
+
+**P2:** "Hi Ramesh! | My Work" at the top. I see priority stats: 2 High, 2 Medium, 1 Completed. The task cards below show High Priority first with an SLA timer — 2 hours. That's urgent. Task #TK-4521 with a "Start" button.
+
+**Facilitator:** What do you notice about the task cards?
+
+**P2:** The priority badges are clear — red for high. The SLA timers help me understand urgency. I can see the task title and location at a glance before even opening it.
+
+*[Facilitator swaps to Task Details screen]*
+
+**P2:** Task details. "Broken Manhole Cover" title, High Priority badge, two photo areas, description that says "Large Manhole Cover Missing," and a map showing Indiranagar location with a pin. I can see exactly where I need to go. There's a "Complete" button at the bottom.
+
+**P2:** The photo areas — one says "Before" and one says "After." That makes sense. I take a photo when I arrive and one when I finish.
+
+*[Facilitator swaps to GPS Checkout screen]*
+
+**P2:** GPS Checkout. It says "GPS Verified: Indiranagar, 12th Main." So it checks I'm at the right location. Below that, "Before Photo" upload, "After Photo" upload, "Notes (Optional)" field, and "Submit Checkout" button.
+
+**P2:** The GPS verification is important — it means I can't complete the task without actually being there. Good for accountability. And the notes being optional is fine — sometimes there's nothing extra to add.
+
+**Facilitator:** Is there anything missing from this flow?
+
+**P2:** I'd want to flag a problem if I arrive and the issue doesn't match the report. Like if the description says "broken manhole" but it's actually a water leak, I need a way to report that. Also, what if the task takes longer than the SLA? Can I request more time?
+
+**P2:** And the text on this screen is a reasonable size, which I appreciate. I'd be using this outdoors on-site, so readability matters.
+
+**Observations:**
+- Understood field worker login (Employee ID + Department)
+- Dashboard stats and SLA timers were immediately clear
+- Before/after photo flow intuitive
+- GPS verification seen as accountability measure
+- Wanted ability to flag discrepancies between report and reality
+- Wanted ability to request SLA extension
+- Text readability appreciated for outdoor use
+- Flow described as clear and task-oriented
+
+---
+
+## Task 9: Government Official — Review Reports & Assign Tickets
+
+**Facilitator:** One last role. You're a government official at the BWSSB office. You need to review incoming reports and assign a ticket to a field worker.
+
+*[Facilitator places Government Official Login screen]*
+
+**P2:** "Civic Snap — Official Portal." It asks for Office Email ID, Department dropdown, and Password. Three fields instead of one. I'd fill these in and tap Login.
+
+*[Facilitator swaps to Government Dashboard]*
+
+**P2:** "Hello BWSSB Office" with stats: 12 Critical, 28 Pending, 156 Resolved. That's a lot of information at a glance, which is good for a manager. Below that, a heatmap. I'm not sure I understand this right away — what do the darker areas mean?
+
+**Facilitator:** What would you guess?
+
+**P2:** I'd guess darker means more issues in that area. But a legend would help — like "darker = more reports" somewhere visible. Without one, I'm guessing.
+
+*[Facilitator swaps to Reports Queue]*
+
+**P2:** Reports queue. Multiple cards with priority badges, titles, locations, and "Assign" and "Details" buttons. I'd look for the highest priority one first.
+
+**P2:** But with many reports, this list will get long. I'd want filters — by priority, by area, by date. Scrolling through everything isn't efficient when you have hundreds of reports.
+
+*[Facilitator swaps to Assign Ticket screen]*
+
+**P2:** Assign Tickets. Search for Employee Name and add a Note. I'd search for a worker and assign the ticket.
+
+**P2:** But I don't know which worker to assign. The search just gives me names. I need to see their current workload, what area they cover, how many tasks they already have. Just a name search isn't enough for smart decisions.
+
+*[Facilitator swaps to Ticket Details screen]*
+
+**P2:** Ticket Details for #TK-0591. Before/after photos, title "Manhole Opened," location pin, description, and progress showing "Reported → BWSSB Assigned." And there's a "User Details" link.
+
+*[Facilitator swaps to User Details screen]*
+
+**P2:** User Details shows the citizen's info — name, phone, email, location, karma points (1250). "Message" and "Call" buttons for contact. And a "Report User" link for flagging misuse. Good — I can reach out to the citizen if I need more details.
+
+**P2:** The karma points here are useful. If someone has 1250 points, they're a trusted, active reporter. If it's low, maybe the report is less reliable. It helps me prioritize.
+
+*[Facilitator swaps to Create Manual Ticket screen]*
+
+**P2:** Create Manual Ticket. Location search, image upload, priority buttons (High, Medium, Low — good, not a dropdown), and description. And a "Create" button. This is for phone-in reports from citizens who don't use the app.
+
+**P2:** The priority buttons are clear — I can see all three options without opening a dropdown. For an older person like me, that's helpful. Bigger touch targets.
+
+**Observations:**
+- Understood secure three-field login for official portal
+- Dashboard stats clear but heatmap needed a legend
+- Wanted filtering in reports queue (priority, area, date)
+- Wanted worker workload/availability context in assignment screen
+- User Details with karma points seen as useful for trust assessment
+- Manual ticket creation straightforward
+- Priority buttons (not dropdown) appreciated for accessibility
+- Suggested ability to contact citizens for more details
+
+---
+
 ## Post-Interview
 
 **Facilitator:** Which task was easiest?
@@ -437,17 +539,9 @@
 - "The app design is good, but the real test is whether it leads to action."
 
 **Top Issues Identified:**
-1. Tracking screen too dense — needs simple/detailed view toggle
-2. Technical jargon ("Stage-gates," "Digital Handshake") needs plain language
-3. Profile photo requirement unclear — should be marked optional
-4. Area input method ambiguous
-5. Anonymous reporting toggle too small
-6. Karma system needs explanation
-7. Map view needs filters and category-based pin shapes
-8. Privacy statement needed for location data
-9. Phone login missing Continue button — users stuck after entering number
-10. AI auto-detected tags have no X/cross button — can't remove incorrect tags
-11. Profile screen lacks visible "Edit Profile" button
-12. Notifications need "Action Required" filter section
+1. **Anonymous reporting toggle** — The toggle for anonymous reporting was too small and subtle. P2 almost missed it entirely. It needs to be more prominent, perhaps a full card with a shield icon and clear label rather than a tiny toggle buried at the bottom.
+2. **Profile photo requirement unclear** — P2 was unsure whether the profile photo was mandatory and wanted it clearly marked as "Optional." Also unclear whether the area field was a dropdown or free text.
+3. **Karma explanation — points had no context** — P2 understood the karma points number but had no idea what it meant or what benefits it provided. Needed an info icon or explanation linking trust to priority.
+4. **Map filters — no way to filter by status/category** — P2 found the map cluttered with pins and wanted filters for status (open, in progress, resolved) and category. Also suggested category-based pin shapes for quicker identification.
 
-**Session Rating:** Positive. Good SUS score (80). Participant would use the app but wants assurance of government responsiveness.
+**Session Rating:** Positive. Good SUS score (80). Participant would use the app but wants assurance of government responsiveness. All three portal roles were understandable with consistent design language.

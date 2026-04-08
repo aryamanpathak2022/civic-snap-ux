@@ -21,6 +21,7 @@ Both participants responded positively to the Civic Snap paper prototype. The co
 | Finding | P1 | P2 | Severity |
 |---------|----|----|----------|
 | Phone-only login appreciated | ✅ | ✅ | — |
+| No Continue button after entering phone number | ⚠️ | ⚠️ | Critical |
 | OTP flow clear and well-understood | ✅ | ✅ | — |
 | Area input method unclear (dropdown vs type) | ⚠️ | ⚠️ | Medium |
 | Profile photo requirement unclear | ⚠️ | ⚠️ | Medium |
@@ -37,7 +38,6 @@ Both participants responded positively to the Civic Snap paper prototype. The co
 | "Report Issue" button found immediately | ✅ | ✅ | — |
 | Category selection with icons intuitive | ✅ | ✅ | — |
 | AI auto-tagging concept understood | ✅ | ✅ | — |
-| Wanted ability to ADD custom tags | ⚠️ | ⚠️ | Medium |
 | AI auto-detected tags have NO X/cross button to remove them | ⚠️ | ⚠️ | High |
 | GPS location step clear | ✅ | ✅ | — |
 | GPS location step clear | ✅ | ✅ | — |
@@ -46,7 +46,7 @@ Both participants responded positively to the Civic Snap paper prototype. The co
 | Report ID and ETA built confidence | ✅ | ✅ | — |
 | Flow felt slightly long but acceptable | ⚠️ | ✅ | Low |
 
-**Insight:** The reporting flow is the strongest part of the prototype. The anonymous reporting toggle needs to be more prominent. Tag editing needs an "add" option.
+**Insight:** The reporting flow is the strongest part of the prototype. However, AI auto-detected tags have no X/cross button, so users cannot remove incorrect tags — this is a critical issue that could lead to reports being routed to the wrong department. The anonymous reporting toggle also needs to be more prominent.
 
 ---
 
@@ -76,7 +76,7 @@ Both participants responded positively to the Civic Snap paper prototype. The co
 | Karma/trust points well-received | ✅ | ✅ | — |
 | Karma system needs explanation | ⚠️ | ⚠️ | Medium |
 
-**Insight:** The verification flow is strong. Adding a confirmation dialog and dispute reason selector would improve it. Karma needs a brief explainer.
+**Insight:** The verification flow is strong, but there is no dispute flow. No confirmation dialog exists before disputing a fix, and no way to specify dispute reasons. This could lead to accidental disputes. Karma needs a brief explainer.
 
 ---
 
@@ -107,18 +107,14 @@ Both participants responded positively to the Civic Snap paper prototype. The co
 8. **Estimated Response Time** — Set clear expectations
 
 ### 3.2 What Needs Improvement (Changes Made)
-1. **Tracking Screen Density** — Both participants found it overwhelming
-2. **Technical Jargon** — "Stage-gates," "Digital Handshake" confused both
-3. **Anonymous Reporting Visibility** — Too small, easily missed
-4. **Profile Setup Clarity** — Photo requirement and area input ambiguous
-5. **Tag Editing — No Remove Button** — Auto-detected AI tags have no X/cross button; users cannot remove incorrect AI-detected tags (critical)
-6. **Phone Login — Missing Continue Button** — No visible Continue button after entering phone number (critical)
-7. **Dispute Flow** — Needed confirmation dialog and reason selector
-8. **Karma Explanation** — Points system needed context
-9. **Map Filters** — Needed for scalability
-10. **Profile Edit Visibility** — No visible "Edit Profile" button on profile screen
-11. **Notifications — Action Differentiation** — Need visual distinction between action-required and informational notifications
-12. **Notifications — Individual Dismissal** — Need ability to dismiss/delete individual notifications
+1. **No Continue Button on Login Page** — After entering phone number, no visible Continue button. Users were stuck and thought the app was broken. (P1 & P2)
+2. **Tracking Screen Too Dense** — Overwhelmed both participants. All information shown at once. Needed progressive disclosure (simple view + detailed view). (P1 & P2)
+3. **Anonymous Reporting Toggle** — Too small and subtle. Easily missed. Needed to be more prominent — a full card with shield icon and clear label. (P2)
+4. **Profile Photo Requirement Unclear** — Not marked as optional. Participants unsure whether photo was mandatory. (P2)
+5. **Tag Editing — No Way to Remove** — AI auto-detected tags appeared as chips with no X/cross button. If AI misidentified an issue, users could not remove incorrect tags before submission. (P1)
+6. **No Dispute Flow — No Confirmation, No Reason Selector** — No confirmation dialog before disputing a fix. No way to specify dispute reason (e.g., "Wrong location," "Temporary fix only"). (P1)
+7. **Karma Explanation — Points Had No Context** — Users saw karma points but had no idea what they meant or what benefits they provided. Needed info icon and explanation linking trust to priority. (P2)
+8. **Map Filters — No Way to Filter by Status/Category** — Map became cluttered with pins. No way to filter by status (open, in progress, resolved) or category (roads, streetlights, etc.). (P2)
 
 ---
 
@@ -331,32 +327,39 @@ Both participants responded positively to the Civic Snap paper prototype. The co
 
 | Priority | Change | Effort | Impact |
 |----------|--------|--------|--------|
-| 🔴 Critical | Tracking screen progressive disclosure | Medium | High |
-| 🔴 Critical | Replace technical jargon | Low | High |
 | 🔴 Critical | Phone login Continue button | Low | Critical |
-| 🔴 Critical | AI tag X/cross button for removal | Low | High |
-| 🟡 High | Anonymous reporting toggle | Low | High |
-| 🟡 High | Profile setup clarity | Low | Medium |
-| 🟡 High | Dispute confirmation + reasons | Medium | Medium |
-| 🟡 High | Profile Edit button visibility | Low | High |
-| 🟡 High | Notification action differentiation | Medium | High |
-| 🟢 Medium | Custom tags (Add Tag) | Medium | Medium |
-| 🟢 Medium | Karma explanation | Low | Medium |
-| 🟢 Medium | Map filters | Medium | Medium |
-| 🟢 Medium | Notification individual dismissal | Low | Medium |
-| 🔵 Low | Pin shape differentiation | Low | Low |
-| 🔵 Low | Empty states | Low | Medium |
+| 🔴 Critical | Tracking screen progressive disclosure | Medium | High |
+| 🔴 Critical | Tag editing — X/cross button on AI tags | Low | High |
+| 🔴 Critical | Dispute flow — confirmation + reason selector | Medium | High |
+| 🟡 High | Anonymous reporting toggle — make prominent | Low | High |
+| 🟡 High | Profile photo — mark as optional | Low | Medium |
+| 🟡 High | Karma explanation — info icon + levels | Low | Medium |
+| 🟡 High | Map filters — status and category filters | Medium | Medium |
 
 ---
 
-## 8. Next Steps
+## 8. Hi-Fi Testing — New Issues Found
+
+All 8 issues from paper testing were resolved in the hi-fi prototype. P3 and P4 both confirmed the improvements. The following new issues emerged during hi-fi testing:
+
+| # | Issue | Found By | Severity |
+|---|-------|----------|----------|
+| 1 | **Delete Profile and Data** — No option to delete account or remove personal data. Users expected GDPR-compliant data removal. | P3 | High |
+| 2 | **Text too small for visibility** — Several areas (activity history timestamps, heatmap labels, notification detail text) had small text that was hard to read, especially for older users. | P4 | High |
+| 3 | **Voice input option needed** — Users who can't type well (older users, those with motor impairments) need a voice/mic input option for descriptions. | P4 | Medium |
+| 4 | **Privacy policy and legal aspects not accessible** — No link to privacy policy, terms of service, or data usage information anywhere in the app. Users wanted to know how their data is used. | P3 | Medium |
+
+---
+
+## 9. Next Steps
 
 1. ✅ Implement all changes in hi-fi digital prototype
 2. ✅ Test hi-fi prototype with 2+ new participants
-3. ⏳ Compare SUS scores between paper and hi-fi rounds
-4. ⏳ Validate that changes resolved identified issues
-5. ⏳ Document any new issues found in hi-fi testing
-6. ⏳ Finalize prototype for submission
+3. ✅ Compare SUS scores between paper and hi-fi rounds
+4. ✅ Validate that changes resolved identified issues
+5. ✅ Document new issues found in hi-fi testing
+6. ⏳ Implement hi-fi fixes (delete account, text scaling, voice input, privacy policy)
+7. ⏳ Finalize prototype for submission
 
 ---
 
